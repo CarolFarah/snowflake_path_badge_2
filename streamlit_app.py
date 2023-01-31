@@ -29,8 +29,8 @@ streamlit.dataframe(fruits_to_show)
 
 fruitvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 
-print('Formato JSON/n')
+streamlit.text('Formato JSON/n')
 streamlit.text(fruitvice_response.json())
 
-print('/nFormato texto')
+streamlit.text('/nFormato texto')
 streamlit.text(fruitvice_response.text)
