@@ -32,8 +32,8 @@ fruitvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 streamlit.text('Formato JSON')
 streamlit.text(fruitvice_response.json())
 
-streamlit.text()
-streamlit.text()
+streamlit.text('')
+streamlit.text('')
 
 streamlit.text('Formato texto')
 streamlit.text(fruitvice_response.text)
