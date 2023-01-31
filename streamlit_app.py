@@ -39,5 +39,5 @@ streamlit.text('Formato texto')
 streamlit.text(fruitvice_response.text)
 
 
-fruitvice_normalized = pd.normalize(fruitvice_response.json())
+fruitvice_normalized = pd.json_normalize(fruitvice_response.json())
 streamlit.dataframe(fruitvice_normalized) 
