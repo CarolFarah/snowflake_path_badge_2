@@ -42,6 +42,3 @@ streamlit.text(fruitvice_response.text)
 fruitvice_normalized = pd.json_normalize(fruitvice_response.json())
 streamlit.dataframe(fruitvice_normalized) 
 
-
-fruitvice_normalized1 = pd.json_normalize(fruitvice_response.text)
-streamlit.dataframe(fruitvice_normalized1) 
