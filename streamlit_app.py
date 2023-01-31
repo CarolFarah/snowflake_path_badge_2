@@ -40,7 +40,10 @@ streamlit.text('')
 streamlit.text('Formato texto')
 streamlit.text(fruitvice_response.text)
 
+streamlit.text('')
+streamlit.write('')
 
+streamlit.write('Dataframe')
 fruitvice_normalized = pd.json_normalize(fruitvice_response.json())
 streamlit.dataframe(fruitvice_normalized) 
 
