@@ -33,4 +33,4 @@ print('Formato JSON/n')
 streamlit.text(fruitvice_response.json())
 
 print('/nFormato texto')
-streamlit.text(fruitvice_response.txt)
+streamlit.text(fruitvice_response.text)
